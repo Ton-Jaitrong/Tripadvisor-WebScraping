@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2e2f490b-ffb1-4a4c-91dc-fd61a62d250a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>TripAdvisorWebScraping.py</StartupFile>
+    <StartupFile>App.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,8 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="HelloWorld.py" />
+    <Compile Include="App.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="MySql.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GetReplies.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="TripAdvisorWebScraping.py">
